@@ -64,12 +64,16 @@ button:hover{
     color:green;
 }
 
-@media(max-width:400px) {
+@media(max-width:430px) {
     .calculator{
         height:100vh;
         width:100%;
         border:none;
         box-shadow:none;
+    }
+
+    .calculator div{
+        text-align:center;
     }
 
     input{
@@ -81,5 +85,13 @@ button:hover{
         width:75px;
         height:75px;
         font-size:30px;
+    }
+
+    @media(max-width:393px) {
+        button{
+            width:65px;
+            height:65px;
+            font-size:30px;
+        }
     }
 }
