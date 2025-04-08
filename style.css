@@ -31,6 +31,7 @@ input{
     box-shadow: 0 3px 15px rgba(113, 115, 119, 0.1);
     cursor:pointer;
     color:white;
+    margin-bottom:20px;
 }
 
 input::placeholder{
@@ -39,9 +40,9 @@ input::placeholder{
 
 button{
     border:none;
-    width:60px;
-    height:60px;
-    margin:10px;
+    width:70px;
+    height:70px;
+    margin:5px;
     font-size:20px;
     border-radius:50%;
     background:transparent;
@@ -77,8 +78,8 @@ button:hover{
     }
 
     button{
-        width:65px;
-        height:65px;
+        width:75px;
+        height:75px;
         font-size:30px;
     }
 }
