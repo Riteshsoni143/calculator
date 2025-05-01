@@ -21,7 +21,7 @@ body{
     box-shadow: 0 3px 15px rgba(113, 115, 119, 0.5);
 }
 
-input{
+.numBox{
     width:330px;
     border:none;
     background:transparent;
