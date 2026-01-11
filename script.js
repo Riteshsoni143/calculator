@@ -31,3 +31,5 @@ function del() {
         display.innerHTML = "0";
     }
 }
+
+console.log("Calculator script loaded.");
